@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  height: 100vh;
+}
+
+.container-fluid{
+  height: 100vh !important;
 }
 
 .App-logo {

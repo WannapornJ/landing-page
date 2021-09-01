@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika:wght@300;400;500;600;700&display=swap');
+
+.right{
+    background: linear-gradient(202.1deg, #FD9F39 3.34%, #FFD366 85.56%);
+}
+.left > .row >.img > img{
+    width:165px;
+    height:30px;
+}
+
+.container-fluid > .row{
+    height: 100%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left > .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    width: 65%;
+}
+.left > .row > .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 350px;
+}
+
+.left > .row > .content > h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: #52483D;
+}
+.left > .row > .content > p {
+    font-family:'Sukhumvit Set';
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: #52483D;
+}
+.left > .row > .content a {
+    font-family:'Sukhumvit Set';
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: #FEA33D;
+}
+.left > .row > .content a:hover {
+    font-family:'Sukhumvit Set';
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: #FEA33D;
+}
